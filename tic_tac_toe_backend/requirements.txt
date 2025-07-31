@@ -41,3 +41,9 @@ uvicorn==0.34.0
 uvloop==0.21.0
 watchfiles==1.0.5
 websockets==15.0.1
+
+# Additional dependencies for database and auth
+sqlalchemy>=1.4
+psycopg2-binary
+passlib[bcrypt]
+python-jose[cryptography]
